@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* li {
+    list-style: none;
+} */
+
+body {
+    /* width: 1920px; */
+    width: 100%;
+    margin: 0 0;
+    background-color: white;
+}
+
+.container {
+    width: 100%;
+    /* border: 2px solid green; */
+    /* display: flex; */
+}
+
+.top {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    z-index: 999;
+    background-color: #FFFFFF;
+    font-family: \5B8B\4F53;
+    /* border: 2px solid red; */
+}
+
+.top ul {
+    display: flex;
+    list-style: none;
+    /* border: 1px solid green; */
+}
+
+.top ul li {
+    flex: 1;
+    margin-left: 18px;
+    font-size: 20px;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.top ul li a {
+    font-family: 'icomoon';
+    color: #666666;
+}
+
+.top ul li a:hover {
+    color: #c81623;
+    border-bottom: 3px solid rgb(186, 183, 183);
+}
+
+.bottome {
+    width: 100%;
+    display: flex;
+    /* margin-top: 95px; */
+    /* position: relative; */
+    /* border: 2px solid purple; */
+    margin-top: 60px;
+}
+
+.bottome .left {
+    flex: 1;
+    overflow: hidden;
+    position: fixed;
+    width: 300px;
+    /* border: 2px solid blue; */
+    /* margin-top: 100px; */
+}
+
+.bottome .right {
+    margin-left: 320px;
+    flex: 4;
+    overflow: hidden;
+    /* margin-top: 100px; */
+    /* position: absolute; */
+    /* border: 2px solid red; */
+}
+
+.bottome .left img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* border: 2px solid rgb(0, 234, 255); */
+}
+
+.bottome .left p {
+    margin-left: 15px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    /* border: 2px solid rgb(255, 38, 0); */
+}
+
+.bottome .left .school{
+    margin-bottom: 15px;
+}
+
+.bottome .left .name {
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+
+
+.bottome .left li {
+    margin-left: 15px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.bottome .left ul li a {
+    color: black;
+}
+
+.bottome .left ul li a:hover {
+    border-bottom: 2px solid rgb(186, 183, 183);
+}
+
+.bottome .right .b1 p {
+    font-size: 18px;
+}
+
+.bottome .right a {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bottome .right .b1 div {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.bottome .right div ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bottome .right li {
+    margin-left: 10px;
+    list-style-position: inside;
+}
+
+.bottome .right ul li .s1 {
+    color: red;
+    font-weight: bold;
+}
+
+.bottome .right ul li .s2 {
+    font-weight: bold;
+}
+
+.bottome .right ul li {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.bottome .right .b3{
+    margin-bottom: 10px;
+}
+
+.bottome .right .b3 .p1 {
+    width: 220px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 5px;
+    border: 2px solid gray;
+    
+    
+}
+.bottome .right .b3 .t1 .p2{
+    padding-left: 8px;
+}
+
+.bottome .right .b3 .t1{
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.bottome .right .b3 .t1 .p2 p:last-child{
+    /* margin-bottom: 10px; */
+    margin-left: 230px;
+    /* border: 2px solid rgb(30, 255, 0); */
+    
+}
+
+.bottome .right .b3 .t1 a{
+    /* margin-bottom: 5px; */
+    font-size: 18px;
+    color: gray;
+     /* height: 190px; */
+    
+}
+
+
+
+.bottome .right .b5 ul li {
+    font-size: 18px;
+    margin-top: 10px;
+}
