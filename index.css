@@ -90,11 +90,10 @@ body {
 }
 
 .bottome .left img {
-    height: 150px;
-    width: 150px;
-    margin-left: 60px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    width: 210px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
 }
 
 .bottome .left p {
