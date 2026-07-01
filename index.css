@@ -211,7 +211,7 @@ body {
 }
 
 .bottome .right .b3 .t1 a:not([href="#"]) {
-    color: #1a73e8;
+    color: #1a73e8 !important;
 }
 
 
