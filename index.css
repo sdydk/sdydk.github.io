@@ -92,12 +92,9 @@ body {
 .bottome .left img {
     height: 150px;
     width: 150px;
-    border-radius: 50%;
-    overflow: hidden;
     margin-left: 60px;
     margin-top: 10px;
     margin-bottom: 10px;
-    /* border: 2px solid rgb(0, 234, 255); */
 }
 
 .bottome .left p {
